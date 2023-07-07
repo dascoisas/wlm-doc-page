@@ -9,17 +9,28 @@ A solução de monitoramento de subestações de tratamento de água é uma ferr
 
 Descreva as etapas necessárias para instalar o software ou configurar o ambiente de desenvolvimento.
 
-## Uso
+![Página de Login](images/wlm_1.png)
 
-Forneça exemplos de como usar seu software e explique as funcionalidades principais.
 
-## Contribuição
+## Acesso
 
-Caso você esteja aceitando contribuições para o projeto, inclua informações sobre como outros desenvolvedores podem contribuir.
+Logar na conta fornecida pela Nouvenn para ter acesso ao sistema:
+- [https://wlm.nouvenn.com/login](https://wlm.nouvenn.com/login)
 
-## Suporte
+![Página de Login](images/login.png)
 
-Se você oferece suporte ou tem algum canal de comunicação para dúvidas ou problemas, liste-os aqui.
+## Página Principal
+
+Essa seção descreve a página principal da aplicação, que é a primeira tela que o usuário vê quando acessa o sistema. A página principal mostra um mapa interativo com a localização de todos os equipamentos instalados em campo, bem como as informações das entradas e saídas digitais de cada equipamento. Ao clicar em um equipamento no mapa serão exebidos detalhes sobre seu funcionamento e configuração. Além disso, a página principal também exibe alarmes que indicam possíveis problemas nos estados das saídas lógicas ou na conexão do equipamento com a plataforma via rede celular. Esses alarmes são atualizados em tempo real e podem ser filtrados por tipo, data e equipamento.
+
+![Texto alternativo](images/pagina-1.png)
+
+## Detalhes Sensor
+
+Nessa página, o usuário poderá visualizar o histórico de dados das entradas e saídas digitais do equipamento, que mostram o estado dos sensores e atuadores conectados ao dispositivo. Também poderá verificar o nível de sinal de conexão à rede celular, que indica a qualidade da comunicação entre o equipamento e a plataforma. Além disso, o usuário poderá editar a localização geográfica do equipamento, que permite identificar a sua posição no mapa. Por fim, poderá ver os alarmes configurados para o equipamento, que alertam sobre possíveis problemas ou situações anormais.
+
+![Texto alternativo](images/pagina-2.png)
+
 
 ## Licença
 
