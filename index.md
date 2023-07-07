@@ -9,8 +9,7 @@ A solução de monitoramento de subestações de tratamento de água é uma ferr
 
 Descreva as etapas necessárias para instalar o software ou configurar o ambiente de desenvolvimento.
 
-![Página de Login](images/wlm_1.png)
-
+<img src="images/wlm_1.png" width="762">
 
 ## Acesso
 
