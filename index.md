@@ -7,9 +7,12 @@ A solução de monitoramento de subestações de tratamento de água é uma ferr
 
 ## Instalação
 
-Descreva as etapas necessárias para instalar o software ou configurar o ambiente de desenvolvimento.
+Para instalar o equipamento, siga os seguintes passos:
 
-<img src="images/wlm_1.png" width="762">
+1. Conecte uma fonte 12 no conector de alimentação do equipamento.
+2. Identifique as 4 entradas de contato seco no equipamento e ligue os cabos correspondentes aos sensores que deseja monitorar. Os sensores devem fornecer um sinal de 12V quando acionados.
+3. Identifique as 4 saídas de contato seco no equipamento e ligue os cabos correspondentes aos dispositivos que deseja controlar. Os dispositivos devem ser compatíveis com um sinal de 12V para acionamento lógico.
+4. Ligue o equipamento e verifique se as entradas e saídas estão funcionando corretamente.
 
 ## Acesso
 
@@ -23,6 +26,18 @@ Logar na conta fornecida pela Nouvenn para ter acesso ao sistema:
 Essa seção descreve a página principal da aplicação, que é a primeira tela que o usuário vê quando acessa o sistema. A página principal mostra um mapa interativo com a localização de todos os equipamentos instalados em campo, bem como as informações das entradas e saídas digitais de cada equipamento. Ao clicar em um equipamento no mapa serão exebidos detalhes sobre seu funcionamento e configuração. Além disso, a página principal também exibe alarmes que indicam possíveis problemas nos estados das saídas lógicas ou na conexão do equipamento com a plataforma via rede celular. Esses alarmes são atualizados em tempo real e podem ser filtrados por tipo, data e equipamento.
 
 ![Texto alternativo](images/pagina-1.png)
+
+### Informações sobre sensores e atuadores
+
+A exibição de valores de entradas e saídas da lista de equipamentos instalados fica na parte superior esquerda da página principal e mostra as informações sobre o estado de cada entrada e saída em tempo real. Essa parte permite que o usuário visualize rapidamente o estado geral da subestação e identifique possíveis problemas ou anomalias.
+
+![Alt text](images/entradas-saidas.png)
+
+### Alarmes
+
+A seção de alarmes é uma área que mostra informações importantes sobre o funcionamento do dispositivo. Ela fica no canto inferior esquerdo da página principal e exibe os alarmes que ocorrem quando as saídas lógicas são ativadas ou quando o dispositivo perde a conexão com a rede.
+
+![Alt text](images/alarmes.png)
 
 ## Detalhes Sensor
 
